@@ -8,5 +8,7 @@ namespace HelpLibrary
 {
     public class HelpTaskModel
     {
+        List <string> Tasks = new List <string> ();
+        List <string> Qutes = new List <string> ();
     }
 }

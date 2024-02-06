@@ -8,5 +8,6 @@ namespace HelpLibrary
 {
     public class JournalModel
     {
+        List<JournalEntryModel> entries = new List<JournalEntryModel>();
     }
 }
