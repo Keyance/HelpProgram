@@ -8,5 +8,20 @@ namespace HelpLibrary
 {
     public class JournalEntryModel
     {
+        string JournalWriting = " ";
+        PossibleFeeling Feeling;
+
+        enum PossibleFeeling
+        {
+            Happy,
+            Good,
+            Alive,
+            Meh,
+            Stressed,
+            Depressed,
+            Lost,
+            Crying
+        }
+
     }
 }
