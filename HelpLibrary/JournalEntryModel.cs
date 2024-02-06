@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace HelpLibrary
 {
-    internal class JournalEntryModel
+    public class JournalEntryModel
     {
     }
 }

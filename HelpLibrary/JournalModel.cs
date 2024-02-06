@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace HelpLibrary
 {
-    public class JournalUpdateModel
+    public class JournalModel
     {
     }
 }
