@@ -36,9 +36,12 @@
             // newUpdateButton
             // 
             newUpdateButton.BackColor = Color.MistyRose;
+            newUpdateButton.FlatAppearance.MouseDownBackColor = Color.IndianRed;
+            newUpdateButton.FlatAppearance.MouseOverBackColor = Color.LightCoral;
+            newUpdateButton.FlatStyle = FlatStyle.Flat;
             newUpdateButton.Font = new Font("Segoe UI Semibold", 19.8000011F, FontStyle.Bold, GraphicsUnit.Point);
             newUpdateButton.Location = new Point(32, 32);
-            newUpdateButton.Margin = new Padding(4, 4, 4, 4);
+            newUpdateButton.Margin = new Padding(4);
             newUpdateButton.Name = "newUpdateButton";
             newUpdateButton.Size = new Size(655, 70);
             newUpdateButton.TabIndex = 0;
@@ -48,6 +51,9 @@
             // viewUpdatesButton
             // 
             viewUpdatesButton.BackColor = Color.MistyRose;
+            viewUpdatesButton.FlatAppearance.MouseDownBackColor = Color.IndianRed;
+            viewUpdatesButton.FlatAppearance.MouseOverBackColor = Color.LightCoral;
+            viewUpdatesButton.FlatStyle = FlatStyle.Flat;
             viewUpdatesButton.Font = new Font("Segoe UI Semibold", 19.8000011F, FontStyle.Bold, GraphicsUnit.Point);
             viewUpdatesButton.Location = new Point(32, 138);
             viewUpdatesButton.Margin = new Padding(4);
@@ -60,6 +66,9 @@
             // generateTaskButton
             // 
             generateTaskButton.BackColor = Color.MistyRose;
+            generateTaskButton.FlatAppearance.MouseDownBackColor = Color.IndianRed;
+            generateTaskButton.FlatAppearance.MouseOverBackColor = Color.LightCoral;
+            generateTaskButton.FlatStyle = FlatStyle.Flat;
             generateTaskButton.Font = new Font("Segoe UI Semibold", 19.8000011F, FontStyle.Bold, GraphicsUnit.Point);
             generateTaskButton.Location = new Point(32, 244);
             generateTaskButton.Margin = new Padding(4);
@@ -74,12 +83,12 @@
             AutoScaleDimensions = new SizeF(11F, 28F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.White;
-            ClientSize = new Size(745, 386);
+            ClientSize = new Size(728, 386);
             Controls.Add(generateTaskButton);
             Controls.Add(viewUpdatesButton);
             Controls.Add(newUpdateButton);
             Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            Margin = new Padding(4, 4, 4, 4);
+            Margin = new Padding(4);
             Name = "HelpMenu";
             Text = "Self Help Menu";
             ResumeLayout(false);
