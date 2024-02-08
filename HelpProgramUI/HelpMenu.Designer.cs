@@ -28,12 +28,67 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "Form1";
+            newUpdateButton = new Button();
+            viewUpdatesButton = new Button();
+            generateTaskButton = new Button();
+            SuspendLayout();
+            // 
+            // newUpdateButton
+            // 
+            newUpdateButton.BackColor = Color.MistyRose;
+            newUpdateButton.Font = new Font("Segoe UI Semibold", 19.8000011F, FontStyle.Bold, GraphicsUnit.Point);
+            newUpdateButton.Location = new Point(32, 32);
+            newUpdateButton.Margin = new Padding(4, 4, 4, 4);
+            newUpdateButton.Name = "newUpdateButton";
+            newUpdateButton.Size = new Size(655, 70);
+            newUpdateButton.TabIndex = 0;
+            newUpdateButton.Text = "New Diary Entry";
+            newUpdateButton.UseVisualStyleBackColor = false;
+            // 
+            // viewUpdatesButton
+            // 
+            viewUpdatesButton.BackColor = Color.MistyRose;
+            viewUpdatesButton.Font = new Font("Segoe UI Semibold", 19.8000011F, FontStyle.Bold, GraphicsUnit.Point);
+            viewUpdatesButton.Location = new Point(32, 138);
+            viewUpdatesButton.Margin = new Padding(4);
+            viewUpdatesButton.Name = "viewUpdatesButton";
+            viewUpdatesButton.Size = new Size(655, 70);
+            viewUpdatesButton.TabIndex = 1;
+            viewUpdatesButton.Text = "View Entries";
+            viewUpdatesButton.UseVisualStyleBackColor = false;
+            // 
+            // generateTaskButton
+            // 
+            generateTaskButton.BackColor = Color.MistyRose;
+            generateTaskButton.Font = new Font("Segoe UI Semibold", 19.8000011F, FontStyle.Bold, GraphicsUnit.Point);
+            generateTaskButton.Location = new Point(32, 244);
+            generateTaskButton.Margin = new Padding(4);
+            generateTaskButton.Name = "generateTaskButton";
+            generateTaskButton.Size = new Size(655, 70);
+            generateTaskButton.TabIndex = 2;
+            generateTaskButton.Text = "Generate a Task";
+            generateTaskButton.UseVisualStyleBackColor = false;
+            // 
+            // HelpMenu
+            // 
+            AutoScaleDimensions = new SizeF(11F, 28F);
+            AutoScaleMode = AutoScaleMode.Font;
+            BackColor = Color.White;
+            ClientSize = new Size(745, 386);
+            Controls.Add(generateTaskButton);
+            Controls.Add(viewUpdatesButton);
+            Controls.Add(newUpdateButton);
+            Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            Margin = new Padding(4, 4, 4, 4);
+            Name = "HelpMenu";
+            Text = "Self Help Menu";
+            ResumeLayout(false);
         }
 
         #endregion
+
+        private Button newUpdateButton;
+        private Button viewUpdatesButton;
+        private Button generateTaskButton;
     }
 }
