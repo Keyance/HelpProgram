@@ -47,6 +47,7 @@
             newUpdateButton.TabIndex = 0;
             newUpdateButton.Text = "New Diary Entry";
             newUpdateButton.UseVisualStyleBackColor = false;
+            newUpdateButton.Click += newUpdateButton_Click;
             // 
             // viewUpdatesButton
             // 

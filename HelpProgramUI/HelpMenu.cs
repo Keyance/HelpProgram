@@ -6,5 +6,10 @@ namespace HelpProgramUI
         {
             InitializeComponent();
         }
+
+        private void newUpdateButton_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
