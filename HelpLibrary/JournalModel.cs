@@ -8,6 +8,9 @@ namespace HelpLibrary
 {
     public class JournalModel
     {
+        /// <summary>
+        /// List of Journal Entries that were added by the user.
+        /// </summary>
         List<JournalEntryModel> entries = new List<JournalEntryModel>();
     }
 }
