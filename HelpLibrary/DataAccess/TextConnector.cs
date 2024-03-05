@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace HelpLibrary
+namespace HelpLibrary.DataAccess
 {
-    public interface IDataConnection
+    public class TextConnector : IDataConnection
     {
     }
 }
